@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#videobg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+}
+
+#loginform {
+    position: absolute;
+    z-index: 1;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    height:max-content !important;
+    width: 300px !important;
+    align-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 200px !important;
+    margin: auto !important;
+}
+
+
